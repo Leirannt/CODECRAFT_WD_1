@@ -95,8 +95,16 @@
   text-align: center;
 }
 
-.showcase .content h2 {
+.showcase .content h1 {
   font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 55px;
+  color: black;
+}
+
+.showcase .content h2 {
+  font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   line-height: 55px;
@@ -117,8 +125,8 @@
   display: inline-block;
   text-decoration: none;
   padding: 10px 15px;
-  border: 2px solid black;
-  color: black;
+  background-color: black;
+  color: white;
   border-radius: 10px;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
@@ -127,7 +135,6 @@
 }
 
 .showcase .btn:hover {
-  color: white;
   background: gray;
 }
 
